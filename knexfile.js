@@ -6,7 +6,6 @@ module.exports = {
     connection: {
       filename: './data/tasks.db3'
     },
-    debug: true,
     useNullAsDefault: true,
     migrations: {
       directory: './data/migrations'

@@ -17,23 +17,3 @@ function addAction(actions) {
       return findById(ids[0]);
     });
 }
-
-// function getAction(id) {
-//   return db('actions')
-//     .innerJoin('actions', 'projects.id', '=', 'actions.project_id')
-//     .select(
-//       'actions.id',
-//       'actions.description',
-//       'actions.notes',
-//       'actions.completed'
-//     )
-//     .where({ 'actions.project_id': id })
-//     .then(actions => {
-//       return db('projects')
-//         .where({ id })
-//         .first()
-//         .then(project => {
-//           return { ...project, actions };
-//         });
-//     });
-// }
