@@ -37,6 +37,9 @@ Demonstrate your understanding of this week's concepts by answering the followin
 RDBMS - Relational Database Management Systems are the software that manage Structured Query Language (SQL). Examples are Mysql, Postgresql, and Sqlite
 
 2. Why do tables need a `primary key`?
+
+Tables need Primary Keys to have unique identification. This helps reduce the risk of duplicate data.
+
 3. What is the name given to a table column that references the primary key on another table.
 4. What do we need in order to have a _many to many_ relationship between two tables.
 
