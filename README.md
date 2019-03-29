@@ -41,6 +41,9 @@ RDBMS - Relational Database Management Systems are the software that manage Stru
 Tables need Primary Keys to have unique identification. This helps reduce the risk of duplicate data.
 
 3. What is the name given to a table column that references the primary key on another table.
+
+Foreign Key
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
 
 ## Project Set Up
